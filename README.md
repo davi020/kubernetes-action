@@ -3,6 +3,7 @@ kubernetes-action : Fix for the recent change in awscli package that removes sup
 Interacts with kubernetes clusters calling `kubectl` commands. Integrates support for **AWS EKS**.
 
 ### Kubectl version = v1.27.1
+### AWS CLI version = aws-cli/2.13.25
 
 If you are getting the below issue - 
 ```
