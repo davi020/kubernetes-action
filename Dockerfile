@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.19.1
 ARG KUBECTL_VERSION="1.27.1"
 RUN apk add --no-cache py3-pip curl python3
 RUN apk add --no-cache aws-cli
